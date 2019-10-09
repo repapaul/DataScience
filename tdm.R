@@ -2,7 +2,7 @@ library(tm)
 library(wordcloud)
 library(textmineR)
  
-uia  <-VCorpus(DirSource("C:/Petrobras/TextMining/grupo1"), readerControl = list(language="pt_BR")) 
+uia  <-VCorpus(DirSource("C:/emore/TextMining/grupo1"), readerControl = list(language="pt_BR")) 
 summary(uia)
 ndocs <- length(uia)
 minTermFreq <- ndocs * 0.01
